@@ -1,0 +1,51 @@
+.m-project {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.06);
+  border-radius: 3px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.m-project:hover .m-project__photo__share {
+  opacity: 1;
+}
+
+.m-project__photo {
+  background-size: cover;
+  height: 187px;
+  background-position: center;
+  position: relative;
+}
+
+.m-project__photo__share {
+  position: absolute;
+  bottom: 17px; left: 17px;
+  width: 50px;
+  height: 17px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 70px;
+  background-color: rgba(255,255,255,0.46);
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.m-project__text {
+  padding: 17px;
+  color: #5D5D5D;
+}
+
+.m-project__text__title {
+  margin-bottom: 17px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.m-project__text__desc {
+  font-size: 12px;
+  line-height: 20px;
+}
